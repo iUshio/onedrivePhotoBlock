@@ -1,0 +1,16 @@
+# Runtime logs and isolated test output
+.test-artifacts/
+*.log
+*.log.[0-9]*
+
+# Generated release archives and checksums
+dist/
+*.zip
+*.zip.sha256
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
